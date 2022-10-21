@@ -14,13 +14,13 @@ nav {
 a {
     text-decoration: none;
     display: block;
-    color: rgb(255, 255, 255);
+    color: #FFFFFF;
     font-size: 15.2061px;
     transition: ease-in-out 0.3s;
 }
 
 a:hover {
- color: rgb(208, 255, 0);
+ color: #F3C746;
 }
 
 img {
@@ -76,7 +76,7 @@ img {
 
 .apresentacao {
     max-width: 741px;
-    color:white;
+    color: #FFFFFF;
 }
 
 .descricao {
@@ -85,13 +85,13 @@ img {
 }
 
 .meu-nome {
-    font-size: 50px;;
+    font-size: 50px;
 }
 
 .linkedin {
     width: 479px;
     height: 85px;
-    background-color:#0072b1;
+    background-color:#0077B5; /*LINKEDIN COLOR*/
     display: flex;
     justify-content: center;
     align-items: center;
