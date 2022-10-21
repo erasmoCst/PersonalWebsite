@@ -91,7 +91,7 @@ img {
 .linkedin {
     width: 479px;
     height: 85px;
-    background-color:#8E5D52;
+    background-color:#0072b1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +112,7 @@ img {
 }
 
 .link:hover {
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     color: white;
 }
 
