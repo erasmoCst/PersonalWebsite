@@ -1,6 +1,6 @@
-const skills = document.querySelectorAll('.skills-box');
+const abilities = document.querySelectorAll('.skill-box');
 const description = document.querySelector('.text-description');
-const aboutskills = [
+const aboutSkill = [
                     '<p>HTML</p> <br>  <p>The HyperText Markup Language  is the standard markup language for documents designed to be displayed in a web browser.</p> <br>',
                     '<p>CSS</p> <br> <p>Cascading Style Sheets is a mechanism for adding style (colors, fonts, spacing, etc.) to a web document.</p> <br>',
                     '<p>JavaScript</p> <br> <p>JavaScript is a programming language that is one of the core Web technologies, alongside HTML and CSS.</p> <br>',
@@ -21,16 +21,16 @@ const dataInicio = [
                     ]
 const dataHoje = (new Date()).getTime();
 
-skills.forEach(  (elemento, index) => {
+abilities.forEach(  (elemento, index) => {
     let index1 = index;
     let elemento1 = elemento;
     elemento.addEventListener('mouseover', (evento) => {
         let tempo = 'mês';
         let tempoDeExperiencia = Math.round((dataHoje-dataInicio[index1])/(1000*60*60*24*30));
         if (tempoDeExperiencia > 1) tempo = 'meses'
-        description.innerHTML = `<p>${aboutskills[index1]} </p>` ;
+        description.innerHTML = `<p>${aboutSkill[index1]} </p>` ;
     } )
     elemento.addEventListener('mouseout', (evento, elemento,) => {
-        description.innerHTML = '/* Place the mouse over the skills to read a short description */';
+        description.innerHTML = '/* Place the mouse over the abilities to read a short description */';
     } )
 } );
