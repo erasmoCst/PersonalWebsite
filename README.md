@@ -1,8 +1,8 @@
 # PersonalWebsite
 This is my Personal Website | Portfolio
-It has been deveopted as an avaliation exercise at Viptech's Bootecamp
-The Website was based on  <a href="https://github.com/Math-Vieira/Portfolio"> Portifolio
-It's not hosted yet. 
+<p> It has been deveopted as an avaliation exercise at Viptech's Bootecamp. </p>
+<p> It's not hosted yet.</p>
+<p>The Website was based on  <a href="https://github.com/Math-Vieira/Portfolio"> Portifolio</p>
 
 <!--
 <h1>:blue_car: <a href="https://ymatheusvieira.vercel.app/"> Portfólio </a></h1>
