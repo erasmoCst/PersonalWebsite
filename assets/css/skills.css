@@ -1,0 +1,129 @@
+#skills {
+    background-color: #005C69;
+}
+
+.skills-pd {
+    padding-top: 93px;
+}
+
+.skills-pd h2 { 
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.skills-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap:50px;
+    padding-bottom: 70px;
+}
+
+.container-skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 37px;
+    max-width: 55%;
+}
+
+.skills-box {
+    height: 110px;
+    width: 110px;
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease 0.3s;
+}
+
+.skills-box:hover {
+    background-color: #FFFFFF;
+    transform: scale(1.05);
+}
+
+.container-description {
+    color: #FFFFFF;
+    font-family: 'Quando', serif;
+    font-size: 20px;
+    max-width: 40%;
+}
+
+@media (max-width:1200px) {
+
+    .container-description {
+        height: 260px;
+    }
+
+    #skills {
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills-description {
+        display: flex;
+        flex-direction: column-reverse;
+        /* width: 535px; */
+        margin: 0 auto;
+        gap:50px;
+        padding-bottom: 70px;
+        align-items: center;
+    }
+
+    .skills-description p {
+        text-align: center;
+    }
+
+}
+
+@media (max-width:950px) {
+    .container-skills {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 37px;
+        max-width: 300px;
+    }
+
+    .container-description {
+        max-width: 300px;
+    }
+
+}
+
+.skills-box .icones-skills {
+    transition: ease-in-out 0.3s;
+}
+
+.skills-box:hover .icones-skills {
+    opacity: 0;
+}
+
+.skills1{
+    background-image: url(../img/html2.svg);
+}
+
+.skills2 {
+    background-image: url(../img/css2.svg);
+}
+
+.skills3 {
+    background-image: url(../img/js2.svg);
+}
+
+
+.skills8 {
+    background-image: url(../img/sql2.svg);
+}
+
+.skills9 {
+    background-image: url(../img/git2.svg);
+}
+
+.skills10 {
+    background-image: url(../img/github2.svg);
+}

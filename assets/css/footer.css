@@ -13,7 +13,7 @@
     background-color:#303336;
 }
 
-.footer-conteiner {
+.footer-container {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -21,10 +21,23 @@
     align-items: center;
 }
 
-.contato-creditos {
+.contato {
     color: white;
     font-family: 'Quando', serif;
     font-size: 15px;
+    padding: 10px 0;
+}
+
+.under-footer {
+    width: 100%;
+    background-color:#111111;
+}
+
+.bootcamp-phrase {
+    color: white;
+    text-align: center;
+    font-family: 'Quando', serif;
+    font-size: 12px;
     padding: 10px 0;
 }
 
@@ -34,11 +47,11 @@
 }
 
 @media (max-width:1200px) {
-    .contato-creditos{
+    .contato, .bootcamp-phrase{
         text-align: center;
     }
     
-    .footer-conteiner {
+    .footer-container {
         display: flex;
         flex-direction: column;
         padding-bottom: 10px;
@@ -54,10 +67,6 @@
     background-repeat: no-repeat;
     cursor: pointer;
     transition: 0.7s;
-}
-
-.links:hover {
-    /*transform: rotate(-360deg);*/
 }
 
 .links1 {
