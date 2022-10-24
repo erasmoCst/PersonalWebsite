@@ -5,7 +5,7 @@
 }
 
 .ajustador-2 {
-    padding: 144px 0;
+    padding: 120px 0;
     display: flex;
     flex-wrap: wrap;
     gap: 67px;
@@ -20,15 +20,11 @@ h2 {
     color: #FFFFFF;
 }
 
-.circulo {
-    position: absolute;
-}
 
-.avatar {
+.myself {
     width: 323px;
     height: 368px;
     position: relative;
-    cursor: pointer;
     transition: ease 1s;
 }
 
@@ -54,27 +50,15 @@ h2 {
     }
 }
 
-.html {
-    bottom: 0;
-    left: 0;
-    animation: html 3s infinite linear alternate-reverse ;
-}
-
-.js {
-    bottom: 0;
-    left: 150px;
-}
-
-.css {
-    bottom: 0;
-    left: 300px;
-    animation: css 3s infinite linear alternate-reverse;
-}
 
 .about-me{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.about-me h2 {
+    padding-bottom: 20px;
 }
 
 .about-me p {
@@ -90,7 +74,7 @@ h2 {
         text-align: center;
     }
 
-    .avatar {
+    .myself {
         margin-right: 60px;
     }
 
@@ -116,7 +100,7 @@ h2 {
         padding: 70px 30px;
     }
 
-    .avatar {
+    .myself {
         margin-right: 0;
     }
 
